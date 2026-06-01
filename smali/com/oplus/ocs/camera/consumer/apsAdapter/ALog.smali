@@ -6,9 +6,9 @@
 # static fields
 .field private static final TAG:Ljava/lang/String; = "ALog"
 
-.field private static volatile sEnable:Z = false
+.field private static volatile sEnable:Z
 
-.field private static volatile sJNILoadFailed:Z = false
+.field private static volatile sJNILoadFailed:Z
 
 
 # direct methods

@@ -12,7 +12,7 @@
 
 .field private static final sOsenseEventLock:Ljava/lang/Object;
 
-.field private static sOsenseInit:Z = false
+.field private static sOsenseInit:Z
 
 .field private static sOsenseResClient:Lcom/oplus/osense/OsenseResClient;
 

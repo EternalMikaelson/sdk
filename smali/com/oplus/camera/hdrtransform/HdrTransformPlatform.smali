@@ -8,9 +8,9 @@
 
 .field private static final TAG:Ljava/lang/String; = "HdrTransformPlatform"
 
-.field private static sAlgoExists:Z = false
+.field private static sAlgoExists:Z
 
-.field private static sLibraryLoaded:Z = false
+.field private static sLibraryLoaded:Z
 
 
 # direct methods

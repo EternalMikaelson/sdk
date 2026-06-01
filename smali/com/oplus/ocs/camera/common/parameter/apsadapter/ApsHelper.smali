@@ -10,7 +10,7 @@
 
 .field private static TAG:Ljava/lang/String; = "ApsHelper"
 
-.field private static bInit:Z = false
+.field private static bInit:Z
 
 .field private static mClazzField:Ljava/lang/reflect/Field;
 

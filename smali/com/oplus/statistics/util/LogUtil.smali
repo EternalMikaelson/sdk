@@ -6,7 +6,7 @@
 # static fields
 .field public static final TAG_PREFIX:Ljava/lang/String; = "OplusTrack-"
 
-.field private static isDebug:Z = false
+.field private static isDebug:Z
 
 
 # direct methods
