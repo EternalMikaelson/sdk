@@ -16,7 +16,7 @@
 
     const-string v2, "ApsFaceBeautyPreviewProductJni"
 
-    const-string v3, "/product/lib64/libApsFaceBeautyPreviewProductJni.so"
+    const-string v3, "/system_ext/lib64/libApsFaceBeautyPreviewProductJni.so"
 
     if-eqz v0, :cond_2
 
