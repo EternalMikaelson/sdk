@@ -1,0 +1,6 @@
+version: 3.0.3
+apkFileName: com.oplus.camera.unit.sdk.jar
+sdkInfo:
+  minSdkVersion: 29
+doNotCompress:
+- dex
