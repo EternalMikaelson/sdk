@@ -1,0 +1,165 @@
+.class abstract Lcom/google/oplus/protobuf/ExtensionSchema;
+.super Ljava/lang/Object;
+.source "ExtensionSchema.java"
+
+
+# annotations
+.annotation runtime Lcom/google/oplus/protobuf/CheckReturnValue;
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Lcom/google/oplus/protobuf/FieldSet$FieldDescriptorLite<",
+        "TT;>;>",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 14
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method abstract extensionNumber(Ljava/util/Map$Entry;)I
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map$Entry<",
+            "**>;)I"
+        }
+    .end annotation
+.end method
+
+.method abstract findExtensionByNumber(Lcom/google/oplus/protobuf/ExtensionRegistryLite;Lcom/google/oplus/protobuf/MessageLite;I)Ljava/lang/Object;
+.end method
+
+.method abstract getExtensions(Ljava/lang/Object;)Lcom/google/oplus/protobuf/FieldSet;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")",
+            "Lcom/google/oplus/protobuf/FieldSet<",
+            "TT;>;"
+        }
+    .end annotation
+.end method
+
+.method abstract getMutableExtensions(Ljava/lang/Object;)Lcom/google/oplus/protobuf/FieldSet;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")",
+            "Lcom/google/oplus/protobuf/FieldSet<",
+            "TT;>;"
+        }
+    .end annotation
+.end method
+
+.method abstract hasExtensions(Lcom/google/oplus/protobuf/MessageLite;)Z
+.end method
+
+.method abstract makeImmutable(Ljava/lang/Object;)V
+.end method
+
+.method abstract parseExtension(Ljava/lang/Object;Lcom/google/oplus/protobuf/Reader;Ljava/lang/Object;Lcom/google/oplus/protobuf/ExtensionRegistryLite;Lcom/google/oplus/protobuf/FieldSet;Ljava/lang/Object;Lcom/google/oplus/protobuf/UnknownFieldSchema;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<UT:",
+            "Ljava/lang/Object;",
+            "UB:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Object;",
+            "Lcom/google/oplus/protobuf/Reader;",
+            "Ljava/lang/Object;",
+            "Lcom/google/oplus/protobuf/ExtensionRegistryLite;",
+            "Lcom/google/oplus/protobuf/FieldSet<",
+            "TT;>;TUB;",
+            "Lcom/google/oplus/protobuf/UnknownFieldSchema<",
+            "TUT;TUB;>;)TUB;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method abstract parseLengthPrefixedMessageSetItem(Lcom/google/oplus/protobuf/Reader;Ljava/lang/Object;Lcom/google/oplus/protobuf/ExtensionRegistryLite;Lcom/google/oplus/protobuf/FieldSet;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/oplus/protobuf/Reader;",
+            "Ljava/lang/Object;",
+            "Lcom/google/oplus/protobuf/ExtensionRegistryLite;",
+            "Lcom/google/oplus/protobuf/FieldSet<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method abstract parseMessageSetItem(Lcom/google/oplus/protobuf/ByteString;Ljava/lang/Object;Lcom/google/oplus/protobuf/ExtensionRegistryLite;Lcom/google/oplus/protobuf/FieldSet;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/oplus/protobuf/ByteString;",
+            "Ljava/lang/Object;",
+            "Lcom/google/oplus/protobuf/ExtensionRegistryLite;",
+            "Lcom/google/oplus/protobuf/FieldSet<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method abstract serializeExtension(Lcom/google/oplus/protobuf/Writer;Ljava/util/Map$Entry;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/oplus/protobuf/Writer;",
+            "Ljava/util/Map$Entry<",
+            "**>;)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method
+
+.method abstract setExtensions(Ljava/lang/Object;Lcom/google/oplus/protobuf/FieldSet;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lcom/google/oplus/protobuf/FieldSet<",
+            "TT;>;)V"
+        }
+    .end annotation
+.end method

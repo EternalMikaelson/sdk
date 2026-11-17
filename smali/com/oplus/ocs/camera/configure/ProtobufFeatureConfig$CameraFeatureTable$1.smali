@@ -1,0 +1,69 @@
+.class Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable$1;
+.super Lcom/google/oplus/protobuf/AbstractParser;
+.source "ProtobufFeatureConfig.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/oplus/protobuf/AbstractParser<",
+        "Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 7443
+    invoke-direct {p0}, Lcom/google/oplus/protobuf/AbstractParser;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public parsePartialFrom(Lcom/google/oplus/protobuf/CodedInputStream;Lcom/google/oplus/protobuf/ExtensionRegistryLite;)Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/oplus/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 7449
+    new-instance p0, Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, p2, v0}, Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable;-><init>(Lcom/google/oplus/protobuf/CodedInputStream;Lcom/google/oplus/protobuf/ExtensionRegistryLite;Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable-IA;)V
+
+    return-object p0
+.end method
+
+.method public bridge synthetic parsePartialFrom(Lcom/google/oplus/protobuf/CodedInputStream;Lcom/google/oplus/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/oplus/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 7443
+    invoke-virtual {p0, p1, p2}, Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable$1;->parsePartialFrom(Lcom/google/oplus/protobuf/CodedInputStream;Lcom/google/oplus/protobuf/ExtensionRegistryLite;)Lcom/oplus/ocs/camera/configure/ProtobufFeatureConfig$CameraFeatureTable;
+
+    move-result-object p0
+
+    return-object p0
+.end method
